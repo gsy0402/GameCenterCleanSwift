@@ -8,13 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		4CA8AB1021C344A90038DF01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB0F21C344A90038DF01 /* AppDelegate.swift */; };
-		4CA8AB1221C344A90038DF01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB1121C344A90038DF01 /* ViewController.swift */; };
 		4CA8AB1521C344A90038DF01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA8AB1321C344A90038DF01 /* Main.storyboard */; };
 		4CA8AB1821C344A90038DF01 /* GameCenterCleanSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB1621C344A90038DF01 /* GameCenterCleanSwift.xcdatamodeld */; };
 		4CA8AB1A21C344AB0038DF01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA8AB1921C344AB0038DF01 /* Assets.xcassets */; };
 		4CA8AB1D21C344AB0038DF01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA8AB1B21C344AB0038DF01 /* LaunchScreen.storyboard */; };
 		4CA8AB2821C344AB0038DF01 /* GameCenterCleanSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB2721C344AB0038DF01 /* GameCenterCleanSwiftTests.swift */; };
 		4CA8AB3321C344AB0038DF01 /* GameCenterCleanSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB3221C344AB0038DF01 /* GameCenterCleanSwiftUITests.swift */; };
+		4CA8AB4921C345C00038DF01 /* ListGamesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4321C345C00038DF01 /* ListGamesPresenter.swift */; };
+		4CA8AB4A21C345C00038DF01 /* ListGamesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4321C345C00038DF01 /* ListGamesPresenter.swift */; };
+		4CA8AB4B21C345C00038DF01 /* ListGamesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4321C345C00038DF01 /* ListGamesPresenter.swift */; };
+		4CA8AB4C21C345C00038DF01 /* ListGamesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4421C345C00038DF01 /* ListGamesWorker.swift */; };
+		4CA8AB4D21C345C00038DF01 /* ListGamesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4421C345C00038DF01 /* ListGamesWorker.swift */; };
+		4CA8AB4E21C345C00038DF01 /* ListGamesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4421C345C00038DF01 /* ListGamesWorker.swift */; };
+		4CA8AB4F21C345C00038DF01 /* ListGamesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4521C345C00038DF01 /* ListGamesRouter.swift */; };
+		4CA8AB5021C345C00038DF01 /* ListGamesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4521C345C00038DF01 /* ListGamesRouter.swift */; };
+		4CA8AB5121C345C00038DF01 /* ListGamesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4521C345C00038DF01 /* ListGamesRouter.swift */; };
+		4CA8AB5221C345C00038DF01 /* ListGamesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4621C345C00038DF01 /* ListGamesModels.swift */; };
+		4CA8AB5321C345C00038DF01 /* ListGamesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4621C345C00038DF01 /* ListGamesModels.swift */; };
+		4CA8AB5421C345C00038DF01 /* ListGamesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4621C345C00038DF01 /* ListGamesModels.swift */; };
+		4CA8AB5521C345C00038DF01 /* ListGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4721C345C00038DF01 /* ListGamesViewController.swift */; };
+		4CA8AB5621C345C00038DF01 /* ListGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4721C345C00038DF01 /* ListGamesViewController.swift */; };
+		4CA8AB5721C345C00038DF01 /* ListGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4721C345C00038DF01 /* ListGamesViewController.swift */; };
+		4CA8AB5821C345C00038DF01 /* ListGamesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4821C345C00038DF01 /* ListGamesInteractor.swift */; };
+		4CA8AB5921C345C00038DF01 /* ListGamesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4821C345C00038DF01 /* ListGamesInteractor.swift */; };
+		4CA8AB5A21C345C00038DF01 /* ListGamesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB4821C345C00038DF01 /* ListGamesInteractor.swift */; };
+		4CA8AB6121C347CD0038DF01 /* ListCommentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5B21C347CD0038DF01 /* ListCommentsPresenter.swift */; };
+		4CA8AB6221C347CD0038DF01 /* ListCommentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5B21C347CD0038DF01 /* ListCommentsPresenter.swift */; };
+		4CA8AB6321C347CD0038DF01 /* ListCommentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5B21C347CD0038DF01 /* ListCommentsPresenter.swift */; };
+		4CA8AB6421C347CD0038DF01 /* ListCommentsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5C21C347CD0038DF01 /* ListCommentsWorker.swift */; };
+		4CA8AB6521C347CE0038DF01 /* ListCommentsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5C21C347CD0038DF01 /* ListCommentsWorker.swift */; };
+		4CA8AB6621C347CE0038DF01 /* ListCommentsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5C21C347CD0038DF01 /* ListCommentsWorker.swift */; };
+		4CA8AB6721C347CE0038DF01 /* ListCommentsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5D21C347CD0038DF01 /* ListCommentsRouter.swift */; };
+		4CA8AB6821C347CE0038DF01 /* ListCommentsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5D21C347CD0038DF01 /* ListCommentsRouter.swift */; };
+		4CA8AB6921C347CE0038DF01 /* ListCommentsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5D21C347CD0038DF01 /* ListCommentsRouter.swift */; };
+		4CA8AB6A21C347CE0038DF01 /* ListCommentsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5E21C347CD0038DF01 /* ListCommentsModels.swift */; };
+		4CA8AB6B21C347CE0038DF01 /* ListCommentsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5E21C347CD0038DF01 /* ListCommentsModels.swift */; };
+		4CA8AB6C21C347CE0038DF01 /* ListCommentsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5E21C347CD0038DF01 /* ListCommentsModels.swift */; };
+		4CA8AB6D21C347CE0038DF01 /* ListCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5F21C347CD0038DF01 /* ListCommentsViewController.swift */; };
+		4CA8AB6E21C347CE0038DF01 /* ListCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5F21C347CD0038DF01 /* ListCommentsViewController.swift */; };
+		4CA8AB6F21C347CE0038DF01 /* ListCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB5F21C347CD0038DF01 /* ListCommentsViewController.swift */; };
+		4CA8AB7021C347CE0038DF01 /* ListCommentsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB6021C347CD0038DF01 /* ListCommentsInteractor.swift */; };
+		4CA8AB7121C347CE0038DF01 /* ListCommentsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB6021C347CD0038DF01 /* ListCommentsInteractor.swift */; };
+		4CA8AB7221C347CE0038DF01 /* ListCommentsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8AB6021C347CD0038DF01 /* ListCommentsInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +72,6 @@
 /* Begin PBXFileReference section */
 		4CA8AB0C21C344A90038DF01 /* GameCenterCleanSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameCenterCleanSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA8AB0F21C344A90038DF01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CA8AB1121C344A90038DF01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CA8AB1421C344A90038DF01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CA8AB1721C344A90038DF01 /* GameCenterCleanSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameCenterCleanSwift.xcdatamodel; sourceTree = "<group>"; };
 		4CA8AB1921C344AB0038DF01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +83,18 @@
 		4CA8AB2E21C344AB0038DF01 /* GameCenterCleanSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameCenterCleanSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA8AB3221C344AB0038DF01 /* GameCenterCleanSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterCleanSwiftUITests.swift; sourceTree = "<group>"; };
 		4CA8AB3421C344AB0038DF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA8AB4321C345C00038DF01 /* ListGamesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGamesPresenter.swift; sourceTree = "<group>"; };
+		4CA8AB4421C345C00038DF01 /* ListGamesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGamesWorker.swift; sourceTree = "<group>"; };
+		4CA8AB4521C345C00038DF01 /* ListGamesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGamesRouter.swift; sourceTree = "<group>"; };
+		4CA8AB4621C345C00038DF01 /* ListGamesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGamesModels.swift; sourceTree = "<group>"; };
+		4CA8AB4721C345C00038DF01 /* ListGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGamesViewController.swift; sourceTree = "<group>"; };
+		4CA8AB4821C345C00038DF01 /* ListGamesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGamesInteractor.swift; sourceTree = "<group>"; };
+		4CA8AB5B21C347CD0038DF01 /* ListCommentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommentsPresenter.swift; sourceTree = "<group>"; };
+		4CA8AB5C21C347CD0038DF01 /* ListCommentsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommentsWorker.swift; sourceTree = "<group>"; };
+		4CA8AB5D21C347CD0038DF01 /* ListCommentsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommentsRouter.swift; sourceTree = "<group>"; };
+		4CA8AB5E21C347CD0038DF01 /* ListCommentsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommentsModels.swift; sourceTree = "<group>"; };
+		4CA8AB5F21C347CD0038DF01 /* ListCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommentsViewController.swift; sourceTree = "<group>"; };
+		4CA8AB6021C347CD0038DF01 /* ListCommentsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommentsInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +145,8 @@
 		4CA8AB0E21C344A90038DF01 /* GameCenterCleanSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4CA8AB4021C345640038DF01 /* Scenes */,
 				4CA8AB0F21C344A90038DF01 /* AppDelegate.swift */,
-				4CA8AB1121C344A90038DF01 /* ViewController.swift */,
 				4CA8AB1321C344A90038DF01 /* Main.storyboard */,
 				4CA8AB1921C344AB0038DF01 /* Assets.xcassets */,
 				4CA8AB1B21C344AB0038DF01 /* LaunchScreen.storyboard */,
@@ -126,6 +172,41 @@
 				4CA8AB3421C344AB0038DF01 /* Info.plist */,
 			);
 			path = GameCenterCleanSwiftUITests;
+			sourceTree = "<group>";
+		};
+		4CA8AB4021C345640038DF01 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8AB4121C345780038DF01 /* ListGames */,
+				4CA8AB4221C3458F0038DF01 /* ListComments */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4CA8AB4121C345780038DF01 /* ListGames */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8AB4321C345C00038DF01 /* ListGamesPresenter.swift */,
+				4CA8AB4421C345C00038DF01 /* ListGamesWorker.swift */,
+				4CA8AB4521C345C00038DF01 /* ListGamesRouter.swift */,
+				4CA8AB4621C345C00038DF01 /* ListGamesModels.swift */,
+				4CA8AB4721C345C00038DF01 /* ListGamesViewController.swift */,
+				4CA8AB4821C345C00038DF01 /* ListGamesInteractor.swift */,
+			);
+			path = ListGames;
+			sourceTree = "<group>";
+		};
+		4CA8AB4221C3458F0038DF01 /* ListComments */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8AB5B21C347CD0038DF01 /* ListCommentsPresenter.swift */,
+				4CA8AB5C21C347CD0038DF01 /* ListCommentsWorker.swift */,
+				4CA8AB5D21C347CD0038DF01 /* ListCommentsRouter.swift */,
+				4CA8AB5E21C347CD0038DF01 /* ListCommentsModels.swift */,
+				4CA8AB5F21C347CD0038DF01 /* ListCommentsViewController.swift */,
+				4CA8AB6021C347CD0038DF01 /* ListCommentsInteractor.swift */,
+			);
+			path = ListComments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +340,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CA8AB1221C344A90038DF01 /* ViewController.swift in Sources */,
+				4CA8AB5521C345C00038DF01 /* ListGamesViewController.swift in Sources */,
+				4CA8AB7021C347CE0038DF01 /* ListCommentsInteractor.swift in Sources */,
+				4CA8AB4F21C345C00038DF01 /* ListGamesRouter.swift in Sources */,
+				4CA8AB6121C347CD0038DF01 /* ListCommentsPresenter.swift in Sources */,
+				4CA8AB5221C345C00038DF01 /* ListGamesModels.swift in Sources */,
+				4CA8AB4921C345C00038DF01 /* ListGamesPresenter.swift in Sources */,
+				4CA8AB6421C347CD0038DF01 /* ListCommentsWorker.swift in Sources */,
 				4CA8AB1021C344A90038DF01 /* AppDelegate.swift in Sources */,
+				4CA8AB6D21C347CE0038DF01 /* ListCommentsViewController.swift in Sources */,
+				4CA8AB5821C345C00038DF01 /* ListGamesInteractor.swift in Sources */,
+				4CA8AB6A21C347CE0038DF01 /* ListCommentsModels.swift in Sources */,
+				4CA8AB4C21C345C00038DF01 /* ListGamesWorker.swift in Sources */,
+				4CA8AB6721C347CE0038DF01 /* ListCommentsRouter.swift in Sources */,
 				4CA8AB1821C344A90038DF01 /* GameCenterCleanSwift.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +361,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA8AB6E21C347CE0038DF01 /* ListCommentsViewController.swift in Sources */,
+				4CA8AB7121C347CE0038DF01 /* ListCommentsInteractor.swift in Sources */,
+				4CA8AB6221C347CD0038DF01 /* ListCommentsPresenter.swift in Sources */,
+				4CA8AB5921C345C00038DF01 /* ListGamesInteractor.swift in Sources */,
+				4CA8AB6821C347CE0038DF01 /* ListCommentsRouter.swift in Sources */,
+				4CA8AB4A21C345C00038DF01 /* ListGamesPresenter.swift in Sources */,
+				4CA8AB4D21C345C00038DF01 /* ListGamesWorker.swift in Sources */,
+				4CA8AB5021C345C00038DF01 /* ListGamesRouter.swift in Sources */,
+				4CA8AB5321C345C00038DF01 /* ListGamesModels.swift in Sources */,
+				4CA8AB5621C345C00038DF01 /* ListGamesViewController.swift in Sources */,
+				4CA8AB6B21C347CE0038DF01 /* ListCommentsModels.swift in Sources */,
 				4CA8AB2821C344AB0038DF01 /* GameCenterCleanSwiftTests.swift in Sources */,
+				4CA8AB6521C347CE0038DF01 /* ListCommentsWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +381,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA8AB6F21C347CE0038DF01 /* ListCommentsViewController.swift in Sources */,
+				4CA8AB7221C347CE0038DF01 /* ListCommentsInteractor.swift in Sources */,
+				4CA8AB6321C347CD0038DF01 /* ListCommentsPresenter.swift in Sources */,
+				4CA8AB5A21C345C00038DF01 /* ListGamesInteractor.swift in Sources */,
+				4CA8AB6921C347CE0038DF01 /* ListCommentsRouter.swift in Sources */,
+				4CA8AB4B21C345C00038DF01 /* ListGamesPresenter.swift in Sources */,
+				4CA8AB4E21C345C00038DF01 /* ListGamesWorker.swift in Sources */,
+				4CA8AB5121C345C00038DF01 /* ListGamesRouter.swift in Sources */,
+				4CA8AB5421C345C00038DF01 /* ListGamesModels.swift in Sources */,
+				4CA8AB5721C345C00038DF01 /* ListGamesViewController.swift in Sources */,
+				4CA8AB6C21C347CE0038DF01 /* ListCommentsModels.swift in Sources */,
 				4CA8AB3321C344AB0038DF01 /* GameCenterCleanSwiftUITests.swift in Sources */,
+				4CA8AB6621C347CE0038DF01 /* ListCommentsWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
